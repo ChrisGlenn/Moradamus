@@ -1,11 +1,7 @@
 /* MORADAMUS */
 /* Created 1/3/2024 */
-#include <iostream>
-#include <SFML/Graphics.hpp>
-#include <SFML/System.hpp>
-#include <SFML/Window.hpp>
-#include <SFML/Audio.hpp>
-#include <SFML/Network.hpp>
+#include "include/game.h"
+#include "include/render.h"
 
 int main(){
     // display the main window

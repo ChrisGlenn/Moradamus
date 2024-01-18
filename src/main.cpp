@@ -32,7 +32,7 @@ int main(){
         
 
         // render
-        window.clear(sf::Color::Cyan); // clear old frame
+        window.clear(sf::Color::Black); // clear old frame
         // draw the game
         window.display(); // tell app that window is done drawing
     }

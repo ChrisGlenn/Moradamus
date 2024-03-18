@@ -1,11 +1,26 @@
 TO-DO LIST(ALPHA):
 -- These 'todos' are pre-testing after testing they will be 'pruned' and some of --
 -- them will be reset based on what works and what doesn't --
-Initial C++ Demo:
-[x] Show a Window
-[] Show the HUD Overlay
-[] Display the Player
-[] Player Movement w/ Sprite Flip
+
+PLAYER:
+    [] Player Grid Movement
+    [] Selector
+UI:
+ENVIORNMENT:
+GALAXY MAP:
+SHIP:
+ENEMY SHIPS:
+ENEMIES:
+NPCS:
+SFX:
+    [] Beep
+AUDIO:
+    [] Main Menu Startup Sound
+SYSTEM:
+    [] Splash Screen
+    [] Main Menu
+    [] Save Function
+    [] Load Function
 
 
 ALPHA BUG-FIX LIST:

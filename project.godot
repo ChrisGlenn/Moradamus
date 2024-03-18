@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="Moradamus"
+run/main_scene="res://Scenes/System/Main_Menu/main_menu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Globals="*res://Scripts/Globals.gd"
+HUD="*res://Scenes/UI/HUD/hud.tscn"
 
 [display]
 

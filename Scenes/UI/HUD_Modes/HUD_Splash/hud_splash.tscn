@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://dyfb8hqbcpi8w"]
+
+[ext_resource type="Script" path="res://Scenes/UI/HUD_Modes/HUD_Splash/hud_splash.gd" id="1_x2w76"]
+[ext_resource type="FontFile" uid="uid://v1a63daep115" path="res://Fonts/m5x7.ttf" id="2_rnget"]
+
+[node name="HUD_Splash" type="CanvasLayer"]
+script = ExtResource("1_x2w76")
+
+[node name="Beep" type="AudioStreamPlayer" parent="."]
+
+[node name="Splash_Text" type="Label" parent="."]
+offset_left = 32.0
+offset_top = 32.0
+offset_right = 184.0
+offset_bottom = 328.0
+theme_override_colors/font_color = Color(0.596078, 0.811765, 0.341176, 1)
+theme_override_fonts/font = ExtResource("2_rnget")
+theme_override_font_sizes/font_size = 16
+text = "booting...
+
+CPU Check: 5602 : 8MHZ [OK!]
+RAM Check: 512k [OK!]
+MEMORY: 128MB [OK!]
+
+OS VERSION: 1.0.1
+**CENTICOM SYSTEMS**
+
+ATTACHED:
+CONTROL CONSOLE: [ENABLED]
+CARD READER: [ENABLED]
+TERMINAL: [ENABLED]
+OXYGEN SENSOR: [DISABLED]
+RADAR: [ENABLED]
+HVAC UNIT: [NOT DETECTED]
+INTERLINK: [CONNECTED...]"

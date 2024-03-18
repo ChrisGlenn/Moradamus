@@ -1,0 +1,22 @@
+*** RACES ***
+Races that the player can play as, or encounter, in Moradamus.
+
+1. Humans
+Full Alphabet
+They make up about 60% of the galaxy. Having been the ones to first colonize it and create a lot of the tech that runs the galaxies, Humans make up just about most of the galactic council. This creates some negative feelings towards them.
+
+2. Danocs
+ACDEFHIJLNORUY
+Large hairy race that has no homeworld. They are transients who travel together in one large cluster of ships that they call their home. They are fairly combative and usually pushy in trying to establish their economy on trade. They are mostly disliked.
+
+3. Kuurns
+Full Alphabet
+Tall humanoid race with light green skin. They are cunning and intelligent but are still very regressive in their beliefs and culture. They are avid defenders and practitioners of slavery. Most slavers the player will encounter are from this race. They are actively fighting for a larger portion of the countil if not given a larger portion.
+
+4. Xixits
+Full Alphabet
+An invisible spirit race that inhabits makeshift mechanical bodies in order to communicate with the rest of space. They are very mysterious, highly intelligent and powerful, yet also elusive and hidden. They don't seem to want to really be a part of the rest of the universe and are always cought up on their own projects or adventures. The player may never see them at all...
+
+5. Giks
+ADEGIKOQRUVY
+Short green race of workers. Not really intelligent but great with their hands. This race has no space faring abilities of their own. If they are encountered in space it is because they are being hired by another race to work on stuff. They live modest lives in their traditional social structures.

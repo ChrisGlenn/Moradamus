@@ -1,0 +1,22 @@
+*** GAMEFLOW ***
+Gameflow outline to help plan out programming the game.
+
+Main Menu:
+- Select to either start a new game or a new 'random' game(where the player's character is randomly generated). 
+- The map is built out and shows the player's starting position and information. The player can either accept it or return to the main menu.
+- The game loads to the player's starting position. The following is an early character and the way that I would play it.
+
+Charname: Chegrun
+Background: 'Truck Driver'
+Starting Ship: Cargo Ship w/ minimal defense guns.
+Starting Skills: Piloting, Strength, (Some kind of Map info), Repair
+Starting Negatives: Intelligence, Charisma
+Starting Credits: 250, Apartment, Repair Kit.
+
+The player starts out working for a random garbage dumb service. They have a small apartment in an offworld station. Parents, siblings. You start off with a mission to pick up trash at another station in that same galaxy/federation. The player then goes to pick it up. They get an email not long after the game start. A 'reminder' that buying a small device that unlocks government ships to be used is 'illegal'. The player can then start to shop around for black market vendors or work until they can buy a ship and move on to a new career. 
+
+Either way the device is 500 credits and I only have 250 starting out so I have to either try to do what I want with this ship, and have it then lock up and fly me back to the company HQ to be fired or deliver the trash to the warp gate and get a delivery payment. Then the player is given a new assignment and a number of days to make it. 
+
+I choose to complete the job so I look at the terminal on my bridge and select where the location. I can fly there, or 'warp' if I have a drive for that but I don't so I select fly there. It takes about 5 minutes. On the way a small bandit ship stops me. It's a one person vehicle and I engage in combat. The ship is up beside me. I can either attack with a weapon, try and fly away, try to negotiate, or try to get around them to get a better shot. Depending on my skills, and the ship's stats, my choice of action will be executed. I fire and make a hit. I then try to move behind, but lose out. The other guy tries to move behind and is not successful. I fire again and cause damage. They fire and hit. I can now move behind and I do. My attack then cripples his ship. I can then alert the authorities, kill him, take him prisoner (but I don't have any holding cells so I can't) or leave him alone. He begs me to leave him alone for his friends to show up, but I alert the authorities. After 4 hours in game time I get 25 credits added to my account as a reward. 
+
+I make it to the disposal facility near the Sun where trash is then taken and shot towards the sun to be burned up. I recieve my credit and then head back to my home to check it out. It's a small apartment in a space station that is low quality. There is a pool and some stores in my sector. Also a small garage that I can pay for repairs. I pay for some because of the battle. I can also buy equipment to repair the ship myself if my repair is good.

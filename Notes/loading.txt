@@ -1,0 +1,17 @@
+*** LOADING ***
+The plan for loading...
+
+INIT
+Random player - This will load a player with a random background/race/gender/ect.
+
+Choose a random number for the nations in the game, between 3 and 7. This will also dictate how much 'free' space there is in the galaxy. 
+
+Spawn the races that will make up these nations.
+
+Spawn the names for each of the leaders based on their race. 
+
+Use a name list to spawn names for each section of space.
+
+
+MAP
+Set the home planets and an area around them to spawn different map units. 

@@ -1,5 +1,2 @@
-res://Scripts/Globals.gd
-res://Scenes/UI/HUD/hud.tscn
-res://Scenes/System/Main_Menu/main_menu.tscn
-res://Scenes/System/Main_Menu/main_menu.gd
 res://Scenes/System/Load_Game/load_game.tscn
+res://Scenes/System/Main_Menu/main_menu.gd

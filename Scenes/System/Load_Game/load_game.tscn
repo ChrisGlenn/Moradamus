@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://5nacpylk5rl3"]
+
+[ext_resource type="Texture2D" uid="uid://c5p07dhib1xew" path="res://Sprites/UI/mora-terminal.png" id="1_v64lk"]
+[ext_resource type="Texture2D" uid="uid://b6g4nf8ogjruf" path="res://Sprites/UI/LoadingScroll.png" id="2_utsg8"]
+
+[node name="Load_Game" type="Node2D"]
+
+[node name="HUD_Console" type="Sprite2D" parent="."]
+z_index = 8
+texture = ExtResource("1_v64lk")
+centered = false
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(0, 360)
+
+[node name="LoadingScroll" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(192, 0)
+texture = ExtResource("2_utsg8")
+centered = false

@@ -1,6 +1,8 @@
+ParallaxLayer
+ParallaxBackground
+Sprite2D
 Label
 CanvasLayer
 Node2D
 ColorRect
 AudioStreamPlayer
-Sprite2D

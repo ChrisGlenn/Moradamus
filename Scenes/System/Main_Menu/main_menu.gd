@@ -25,6 +25,16 @@ func main_menu(clock):
 			MENU_ELEMENTS.global_position.y = 0 # make sure it doesn't go beyond zero
 		# INPUT
 		# check the player input and react accordingly to their wishes
+		# NEW GAME IS NOT AVAILABLE ONLY NEW RANDOM GAME
+		if Input.is_action_just_pressed("mora_f1"):
+			print("NEW RANDOM SELECTED")
+		if Input.is_action_just_pressed("mora_f2"):
+			print("LOAD GAME NOT IMPLEMENTED YET...")
+		if Input.is_action_just_pressed("mora_f3"):
+			print("MENU SETTINGS NOT IMPLEMENTED YET...")
+		if Input.is_action_just_pressed("mora_f4"):
+			# quit
+			get_tree().quit()
 	else:
 		# check for the menu mode and then turn the main on when the global.menu_mode is MAIN_MENU
 		if Globals.hud_mode == "MAIN_MENU":

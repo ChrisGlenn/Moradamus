@@ -1,2 +1,4 @@
-res://Scenes/System/Load_Game/load_game.tscn
-res://Scenes/System/Main_Menu/main_menu.gd
+res://Scenes/Player/player.gd
+res://Scenes/Player/player.tscn
+res://Scenes/UI/HUD/hud.tscn
+res://Scenes/UI/HUD_Modes/HUD_Splash/hud_splash.tscn

@@ -1,12 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://dyfb8hqbcpi8w"]
+[gd_scene load_steps=4 format=3 uid="uid://dyfb8hqbcpi8w"]
 
 [ext_resource type="Script" path="res://Scenes/UI/HUD_Modes/HUD_Splash/hud_splash.gd" id="1_x2w76"]
 [ext_resource type="FontFile" uid="uid://v1a63daep115" path="res://Fonts/m5x7.ttf" id="2_rnget"]
+[ext_resource type="Texture2D" uid="uid://c5p07dhib1xew" path="res://Sprites/UI/mora-terminal.png" id="2_s6srf"]
 
 [node name="HUD_Splash" type="CanvasLayer"]
 script = ExtResource("1_x2w76")
 
 [node name="Beep" type="AudioStreamPlayer" parent="."]
+
+[node name="HUD_Console" type="Sprite2D" parent="."]
+texture = ExtResource("2_s6srf")
+centered = false
 
 [node name="Splash_Text" type="Label" parent="."]
 offset_left = 32.0

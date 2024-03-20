@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://cjmk70278083x"]
+
+[ext_resource type="Script" path="res://Scenes/Player/player.gd" id="1_2s7rv"]
+[ext_resource type="Texture2D" uid="uid://dnw7ccxqvdhu2" path="res://Sprites/Player/Mora-Player.png" id="1_vb0om"]
+[ext_resource type="Texture2D" uid="uid://b5afteq60su5" path="res://Sprites/UI/Selection.png" id="3_xhu4r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xop5l"]
+size = Vector2(8, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h2fqx"]
+size = Vector2(12, 12)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_2s7rv")
+
+[node name="Body" type="Sprite2D" parent="."]
+texture = ExtResource("1_vb0om")
+centered = false
+hframes = 32
+vframes = 5
+frame = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_xop5l")
+
+[node name="Selector" type="Area2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Selector"]
+texture = ExtResource("3_xhu4r")
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Selector"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_h2fqx")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(8, 8)
+target_position = Vector2(0, 16)

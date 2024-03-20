@@ -1,6 +1,10 @@
+CollisionShape2D
+Sprite2D
+Area2D
+RayCast2D
+CharacterBody2D
 ParallaxLayer
 ParallaxBackground
-Sprite2D
 Label
 CanvasLayer
 Node2D

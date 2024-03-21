@@ -7,6 +7,10 @@ PLAYER:
     [x] Selector
     [] Selector Collision/Update
     [] Player Step SFX
+GAMEPLAY:
+    [] Hacking System
+    [] Musical Instruments
+    [] Keycards
 UI:
     [] HUD
         [] 'Main/Default' HUD
@@ -15,7 +19,13 @@ UI:
             [] Inventory Working System (add/update/delete items, multiple items per slot, ect)
             [] Inventory Selector
             [] Inventory Screen
+INVENTORY:
+    [] Pickup
+    [] Item List (script)
+    [] Invnetory Screen
+    [] Inventory Slots
 ENVIORNMENT:
+    [] Door (unlocked/locked)
 GALAXY MAP:
 SHIP:
 ENEMY SHIPS:

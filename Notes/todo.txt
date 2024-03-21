@@ -3,9 +3,18 @@ TO-DO LIST(ALPHA):
 -- them will be reset based on what works and what doesn't --
 
 PLAYER:
-    [] Player Grid Movement
-    [] Selector
+    [x] Player Grid Movement/Collision
+    [x] Selector
+    [] Selector Collision/Update
+    [] Player Step SFX
 UI:
+    [] HUD
+        [] 'Main/Default' HUD
+        [] HUD Management System
+        [] Inventory
+            [] Inventory Working System (add/update/delete items, multiple items per slot, ect)
+            [] Inventory Selector
+            [] Inventory Screen
 ENVIORNMENT:
 GALAXY MAP:
 SHIP:

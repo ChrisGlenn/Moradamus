@@ -1,4 +1,5 @@
 res://Scenes/Player/player.gd
+res://Scripts/Globals.gd
 res://Scenes/Player/player.tscn
 res://Scenes/UI/HUD/hud.tscn
 res://Scenes/UI/HUD_Modes/HUD_Splash/hud_splash.tscn

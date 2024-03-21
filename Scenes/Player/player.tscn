@@ -13,8 +13,30 @@ size = Vector2(12, 12)
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_2s7rv")
 
+[node name="AudioListener2D" type="AudioListener2D" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+
 [node name="Body" type="Sprite2D" parent="."]
 texture = ExtResource("1_vb0om")
+centered = false
+hframes = 32
+vframes = 5
+frame = 1
+
+[node name="Clothing" type="Sprite2D" parent="."]
+centered = false
+hframes = 32
+vframes = 5
+frame = 1
+
+[node name="Hair" type="Sprite2D" parent="."]
+centered = false
+hframes = 32
+vframes = 5
+frame = 1
+
+[node name="Weapon" type="Sprite2D" parent="."]
 centered = false
 hframes = 32
 vframes = 5

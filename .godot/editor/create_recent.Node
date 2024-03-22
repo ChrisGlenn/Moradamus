@@ -1,6 +1,6 @@
+Label
 ColorRect
 Sprite2D
-Label
 TileMap
 AudioStreamPlayer
 AudioListener2D

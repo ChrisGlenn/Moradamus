@@ -1,11 +1,10 @@
 res://Scenes/Locations/Alpha_Station_15
+res://Scenes/UI/HUD
 res://Scenes/Prefabs/Tilesets/Moradamus_Tileset
 res://Sprites/Tileset
 res://Sprites/Player
 res://Scenes/Player
 res://Scenes/System/Load_Game
 res://Scenes/System/Main_Menu
-res://Scenes/UI/HUD
 res://Scripts
 res://Fonts
-res://Scenes/UI/HUD_Modes/HUD_Splash

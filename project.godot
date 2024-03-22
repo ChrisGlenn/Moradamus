@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="Moradamus"
-run/main_scene="res://Scenes/System/Main_Menu/main_menu.tscn"
+run/main_scene="res://Scenes/Locations/Alpha_Station_15/alpha_station_15.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
 Globals="*res://Scripts/Globals.gd"
+HUD="*res://Scenes/UI/HUD/hud.tscn"
 
 [display]
 
@@ -101,5 +102,6 @@ mora_esc={
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
 textures/decals/filter=0
 textures/light_projectors/filter=0

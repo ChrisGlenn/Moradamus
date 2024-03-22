@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711116929
+::res://::1711147302
 icon.svg::CompressedTexture2D::764039798367888252::1710826368::1710868687::1::::<><>::
 README.md::TextFile::-1::1710826368::0::1::::<><>::
 ::res://Fonts/::1710826368
@@ -22,11 +22,11 @@ todo.txt::TextFile::-1::1711047292::0::1::::<><>::
 ::res://Notes/Flowcharts/::1710888056
 ::res://Scenes/::1711047064
 ::res://Scenes/Locations/::1711047071
-::res://Scenes/Locations/Alpha_Station_15/::1711146626
-alpha_station_15.tscn::PackedScene::7110841177902883189::1711146626::0::1::::<><>::uid://cgs8crv5profb::::res://Scenes/Prefabs/Tilesets/Moradamus_Tileset/moradamus_tileset.tscn<>uid://cjmk70278083x::::res://Scenes/Player/player.tscn<>uid://du8uieb3m6bq5::::res://Scenes/UI/HUD/hud.tscn
-::res://Scenes/Player/::1711146626
+::res://Scenes/Locations/Alpha_Station_15/::1711147297
+alpha_station_15.tscn::PackedScene::7110841177902883189::1711147297::0::1::::<><>::uid://cgs8crv5profb::::res://Scenes/Prefabs/Tilesets/Moradamus_Tileset/moradamus_tileset.tscn<>uid://cjmk70278083x::::res://Scenes/Player/player.tscn
+::res://Scenes/Player/::1711147297
 player.gd::GDScript::-1::1711040008::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::5429979164802359403::1711146626::0::1::::<><>::res://Scenes/Player/player.gd<>uid://dnw7ccxqvdhu2::::res://Sprites/Player/Mora-Player.png<>uid://b5afteq60su5::::res://Sprites/UI/Selection.png
+player.tscn::PackedScene::5429979164802359403::1711147297::0::1::::<><>::res://Scenes/Player/player.gd<>uid://dnw7ccxqvdhu2::::res://Sprites/Player/Mora-Player.png<>uid://b5afteq60su5::::res://Sprites/UI/Selection.png
 ::res://Scenes/Prefabs/::1711046855
 ::res://Scenes/Prefabs/Tilesets/::1711046873
 ::res://Scenes/Prefabs/Tilesets/Moradamus_Tileset/::1711140513
@@ -39,9 +39,9 @@ load_game.tscn::PackedScene::2132506616971468742::1710908865::0::1::::<><>::res:
 main_menu.gd::GDScript::-1::1710884814::0::1::::<>Node2D<>::
 main_menu.tscn::PackedScene::5040079074898737201::1711121656::0::1::::<><>::uid://dok03mx3je43p::::res://Fonts/RETROTECH.ttf<>res://Scenes/System/Main_Menu/main_menu.gd<>uid://c5p07dhib1xew::::res://Sprites/UI/mora-terminal.png<>uid://cdyjxakidmpj5::::res://Fonts/m3x6.ttf<>uid://v1a63daep115::::res://Fonts/m5x7.ttf
 ::res://Scenes/UI/::1711121592
-::res://Scenes/UI/HUD/::1711146626
+::res://Scenes/UI/HUD/::1711147297
 hud.gd::GDScript::-1::1711121686::0::1::::<>CanvasLayer<>::
-hud.tscn::PackedScene::8632392228858144954::1711146626::0::1::::<><>::uid://c5p07dhib1xew::::res://Sprites/UI/mora-terminal.png<>res://Scenes/UI/HUD/hud.gd
+hud.tscn::PackedScene::8632392228858144954::1711147297::0::1::::<><>::uid://c5p07dhib1xew::::res://Sprites/UI/mora-terminal.png<>res://Scenes/UI/HUD/hud.gd<>uid://dm366ls8uaseu::::res://Fonts/m6x11plus.ttf
 ::res://Scripts/::1710868559
 Globals.gd::GDScript::-1::1711039938::0::1::::<>Node<>::
 ::res://Scripts/DATA/::1710826368

@@ -1,3 +1,6 @@
 res://Scenes/Player/player.tscn
 res://Scenes/Locations/Alpha_Station_15/alpha_station_15.tscn
 res://Scenes/Prefabs/Tilesets/Moradamus_Tileset/moradamus_tileset.tscn
+res://Scenes/System/Main_Menu/main_menu.tscn
+res://Scenes/UI/HUD/hud.gd
+res://Scenes/UI/HUD/hud.tscn

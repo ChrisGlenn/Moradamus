@@ -1,6 +1,7 @@
+AnimatedSprite2D
+Node2D
 Sprite2D
 Label
-Node2D
 ColorRect
 TileMap
 AudioStreamPlayer

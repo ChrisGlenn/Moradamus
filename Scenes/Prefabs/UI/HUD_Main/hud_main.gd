@@ -13,6 +13,6 @@ func _ready():
     # set the HUD elements from Globals
     CHAR_NAME.text = Globals.player_name
     LOC_NAME.text = Globals.location
-    DATE_NAME.text = str(Globals.day, " ", Globals.year)
+    DATE_NAME.text = str(Globals.day, " ", Globals.months_trade[Globals.month], " ", Globals.year)
     CREDIT_NAME.text = str("Credits: ", Globals.player_credits)
     STATUS_NAME.text = str("Status: ", Globals.player_status)

@@ -1,5 +1,5 @@
 res://Scenes/Locations/Alpha_Station_15/alpha_station_15.tscn
-res://Scenes/Player/player.gd
 res://Scenes/Prefabs/UI/HUD_Main/hud_main.tscn
 res://Scripts/Globals.gd
 res://Scenes/Prefabs/UI/HUD_Main/hud_main.gd
+res://Scenes/UI/HUD/hud.tscn

@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711337225
+::res://::1711379806
 icon.svg::CompressedTexture2D::764039798367888252::1710631090::1711337225::1::::<><>::
 README.md::TextFile::-1::1710631090::0::1::::<><>::
 ::res://Audio/::1710787308
@@ -40,9 +40,9 @@ player.tscn::PackedScene::5429979164802359403::1711336729::0::1::::<><>::res://S
 ::res://Scenes/Prefabs/Tilesets/Moradamus_Tileset/::1711336729
 moradamus_tileset.tscn::PackedScene::5233141387858212955::1711336729::0::1::::<><>::uid://bti5lvgxpsqip::::res://Sprites/Tileset/mora-tileset.png
 ::res://Scenes/Prefabs/UI/::1711336729
-::res://Scenes/Prefabs/UI/HUD_Main/::1711346102
+::res://Scenes/Prefabs/UI/HUD_Main/::1711346279
 hud_main.gd::GDScript::-1::1711346098::0::1::::<>Node2D<>::
-hud_main.tscn::PackedScene::7188287026531584412::1711346102::0::1::::<><>::res://Scenes/Prefabs/UI/HUD_Main/hud_main.gd<>uid://cudksfbqw5edh::::res://Fonts/PocketPixelRegular-6gdY.ttf<>uid://c5p07dhib1xew::::res://Sprites/UI/mora-terminal.png<>uid://ckr031r8bnk83::::res://Sprites/UI/Maps/Map-AlphaStation.png
+hud_main.tscn::PackedScene::7188287026531584412::1711346279::0::1::::<><>::res://Scenes/Prefabs/UI/HUD_Main/hud_main.gd<>uid://cudksfbqw5edh::::res://Fonts/PocketPixelRegular-6gdY.ttf<>uid://c5p07dhib1xew::::res://Sprites/UI/mora-terminal.png<>uid://ckr031r8bnk83::::res://Sprites/UI/Maps/Map-AlphaStation.png
 ::res://Scenes/System/::1710865263
 ::res://Scenes/System/Load_Game/::1711336729
 load_game.gd::GDScript::-1::1711336729::0::1::::<>Node2D<>::
@@ -55,7 +55,7 @@ main_menu.tscn::PackedScene::5040079074898737201::1711336729::0::1::::<><>::uid:
 hud.gd::GDScript::-1::1711336729::0::1::::<>CanvasLayer<>::
 hud.tscn::PackedScene::8632392228858144954::1711336729::0::1::::<><>::uid://c5p07dhib1xew::::res://Sprites/UI/mora-terminal.png<>res://Scenes/UI/HUD/hud.gd<>uid://dm366ls8uaseu::::res://Fonts/m6x11plus.ttf<>uid://v1a63daep115::::res://Fonts/m5x7.ttf<>uid://daocbi5m423pg::::res://Scenes/Prefabs/UI/HUD_Main/hud_main.tscn
 ::res://Scripts/::1711336729
-Globals.gd::GDScript::-1::1711346034::0::1::::<>Node<>::
+Globals.gd::GDScript::-1::1711346311::0::1::::<>Node<>::
 ::res://Scripts/DATA/::1710783361
 names.gd::GDScript::-1::1710783514::0::1::::<>Node<>::
 ::res://Sprites/::1711336729

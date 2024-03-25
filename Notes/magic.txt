@@ -1,0 +1,8 @@
+*** MAGIC ***
+The spells and culture of magic in Moradamus.
+
+Magic is used by some, but mostly forgotten. Magic isn't nearly as powerful as it once was, and technology has made nearly every spell obsolete. Also the adherence to, what is considered now to be, an outdated way of life leaves magic in the hands of outcasts or 'zealots'. Magic plays no real part in the average life of most people in the system except for those in lesser developed worlds. There magic still is used to improve the quality of life for it's citizens.
+
+SPELLS
+Cure - cures a percentage of HP
+Antidote - cures poison

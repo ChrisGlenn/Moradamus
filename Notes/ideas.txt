@@ -40,3 +40,6 @@ The player can rent small apartments from a space station for really cheap. 100 
 
 - Holidays
 Randomly generated holidays for each species? At least four for each...
+
+- Mafia
+There are mafia families in the game...if they're selected to spawn.

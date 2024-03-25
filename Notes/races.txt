@@ -1,6 +1,7 @@
 *** RACES ***
 Races that the player can play as, or encounter, in Moradamus.
 
+
 1. Humans
 Full Alphabet
 They make up about 60% of the galaxy. Having been the ones to first colonize it and create a lot of the tech that runs the galaxies, Humans make up just about most of the galactic council. This creates some negative feelings towards them.
@@ -24,3 +25,5 @@ Short green race of workers. Not really intelligent but great with their hands. 
 6. Ael
 ACEHIJLMNOUVWY
 Humanoid, close to humans but a different color. They claim to be decended from humans but no one knows how true that is, as there is no real evidence of such. Their history is shrouded in mystery to outsiders and for much of their own race. This has led to them adapting the cultures of other alien races as they hold no real history of themselves.
+
+7. 

@@ -1,10 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://daocbi5m423pg"]
+[gd_scene load_steps=5 format=3 uid="uid://daocbi5m423pg"]
 
 [ext_resource type="Script" path="res://Scenes/Prefabs/UI/HUD_Main/hud_main.gd" id="1_p441s"]
 [ext_resource type="FontFile" uid="uid://cudksfbqw5edh" path="res://Fonts/PocketPixelRegular-6gdY.ttf" id="1_pyqyk"]
+[ext_resource type="Texture2D" uid="uid://c5p07dhib1xew" path="res://Sprites/UI/mora-terminal.png" id="2_qbdex"]
+[ext_resource type="Texture2D" uid="uid://ckr031r8bnk83" path="res://Sprites/UI/Maps/Map-AlphaStation.png" id="4_0b1s4"]
 
 [node name="HUD_Main" type="Node2D"]
 script = ExtResource("1_p441s")
+
+[node name="HUD_Reference" type="Sprite2D" parent="."]
+texture = ExtResource("2_qbdex")
+centered = false
 
 [node name="Name_Label" type="Label" parent="."]
 offset_left = 464.0
@@ -28,3 +34,55 @@ theme_override_font_sizes/font_size = 8
 text = "Location"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Date_Weather_Label" type="Label" parent="."]
+offset_left = 464.0
+offset_top = 63.0
+offset_right = 608.0
+offset_bottom = 80.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("1_pyqyk")
+theme_override_font_sizes/font_size = 8
+text = "Date/Weather"
+horizontal_alignment = 1
+
+[node name="Map" type="Sprite2D" parent="."]
+position = Vector2(496, 80)
+scale = Vector2(2.5, 2.25)
+texture = ExtResource("4_0b1s4")
+centered = false
+
+[node name="Reputation_Label" type="Label" parent="."]
+offset_left = 464.0
+offset_top = 159.0
+offset_right = 608.0
+offset_bottom = 168.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("1_pyqyk")
+theme_override_font_sizes/font_size = 8
+text = "System Reputation"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Credits_Label" type="Label" parent="."]
+offset_left = 464.0
+offset_top = 168.0
+offset_right = 608.0
+offset_bottom = 184.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("1_pyqyk")
+theme_override_font_sizes/font_size = 8
+text = "Credits"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Status_Label" type="Label" parent="."]
+offset_left = 464.0
+offset_top = 184.0
+offset_right = 608.0
+offset_bottom = 200.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("1_pyqyk")
+theme_override_font_sizes/font_size = 8
+text = "Status"
+horizontal_alignment = 1

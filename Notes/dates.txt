@@ -1,0 +1,7 @@
+*** MONTHS ***
+The months and days (holidays) in the solar system.
+
+The dates and years have become standardized due to trade between systems. These are the dates that the player will see on the HUD, but can learn the other months and days that are race specific. The standard trade months originally were short words that are named so in order for each race to be able to vocalize them accurately, but soon it shifted to just set names that can be translated by each race. This was seen as a way to give an unfair advantage to Terran speaking systems and keep lesser evolved societies from gaining any kind of real advantage in the system. 
+Seasons do not exist in the game, the weather is randomized on each planet at various times. 
+
+01 - 

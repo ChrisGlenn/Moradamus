@@ -6,7 +6,7 @@ Random player - This will load a player with a random background/race/gender/ect
 
 Choose a random number for the nations in the game, between 3 and 7. This will also dictate how much 'free' space there is in the galaxy. 
 
-Spawn the races that will make up these nations.
+Spawn the races that will make up these nations. Have a pool of around 20(?) that can be pulled from.
 
 Spawn the names for each of the leaders based on their race. 
 

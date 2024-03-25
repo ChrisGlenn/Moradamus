@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://daocbi5m423pg"]
+
+[ext_resource type="Script" path="res://Scenes/Prefabs/UI/HUD_Main/hud_main.gd" id="1_p441s"]
+[ext_resource type="FontFile" uid="uid://cudksfbqw5edh" path="res://Fonts/PocketPixelRegular-6gdY.ttf" id="1_pyqyk"]
+
+[node name="HUD_Main" type="Node2D"]
+script = ExtResource("1_p441s")
+
+[node name="Name_Label" type="Label" parent="."]
+offset_left = 464.0
+offset_top = 39.0
+offset_right = 608.0
+offset_bottom = 48.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("1_pyqyk")
+theme_override_font_sizes/font_size = 8
+text = "Char Name"
+horizontal_alignment = 1
+
+[node name="Location_Label" type="Label" parent="."]
+offset_left = 464.0
+offset_top = 47.0
+offset_right = 608.0
+offset_bottom = 64.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("1_pyqyk")
+theme_override_font_sizes/font_size = 8
+text = "Location"
+horizontal_alignment = 1
+vertical_alignment = 1

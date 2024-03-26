@@ -6,12 +6,35 @@ extends Node
 var can_play : bool = true # if the player can move/play
 var in_combat : bool = false # true if combat is enabled
 var selector_on : bool = false # true if the player has the selector on
-var player_name : String = "Adan" # player's name
-var player_credits : float = 100.0 # player's credits
-var player_fame : int = 0 # player's overall reputation
-var player_status : String = "Healthy" # player's health status
-var player_hunger : float = 100.0 # player's hunger
-var player_thirst : float = 100.0 # player's thirst
+var player = {
+	"name": "Adan",
+	"avatar": 1,
+	"head": 17,
+	"body": 0,
+	"gender": "Male", # (Gen. 1:27)
+	"race": 0,
+	"status": "Healthy",
+	"strength": 7,
+	"agility": 12,
+	"endurance": 11,
+	"intelligence": 5,
+	"charisma": 5,
+	"armor_class": 7,
+	"bonus_mod": 2,
+	"hp": 8,
+	"credits": 100.0,
+	"armor": 0,
+	"helmet": 0,
+	"weapon": 0,
+	"shield": 0,
+	"reputation": "Unknown",
+	"inventory": [],
+	"weight": 0.0,
+	"capacity": 72.0,
+	"thirst": 100.0,
+	"hunger": 100.0,
+	"days_left": 5000
+}
 var player_reputations : Array = [] # array of reputations from -99 to 99 for each
 var player_x : float = 0.0 # player_x location
 var player_y : float = 0.0 # player_y location

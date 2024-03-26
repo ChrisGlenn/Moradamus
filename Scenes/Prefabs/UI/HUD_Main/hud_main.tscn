@@ -131,70 +131,70 @@ position = Vector2(512, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_position = 1
+bar_max = 10
 
 [node name="Hunger_2" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(520, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_position = 2
+bar_max = 20
 
 [node name="Hunger_3" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(528, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_position = 3
+bar_max = 30
 
 [node name="Hunger_4" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(536, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_position = 4
+bar_max = 40
 
 [node name="Hunger_5" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(544, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_position = 5
+bar_max = 50
 
 [node name="Hunger_6" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(552, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_position = 6
+bar_max = 60
 
 [node name="Hunger_7" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(560, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_position = 7
+bar_max = 70
 
 [node name="Hunger_8" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(568, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_position = 8
+bar_max = 80
 
 [node name="Hunger_9" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(576, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_position = 9
+bar_max = 90
 
 [node name="Hunger_10" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(584, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_position = 10
+bar_max = 100
 
 [node name="Thirst_Label" type="Label" parent="."]
 offset_left = 468.0
@@ -215,6 +215,9 @@ position = Vector2(0, -5)
 position = Vector2(44, 1)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
+script = ExtResource("6_472vj")
+bar_type = "thirst"
+bar_max = 10
 
 [node name="Party_Label" type="Label" parent="."]
 offset_left = 464.0

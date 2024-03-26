@@ -1,9 +1,9 @@
-res://Scenes/Prefabs/UI/HUD_Main/hud_main.gd
-res://Scenes/Prefabs/UI/HUD_Main/hud_main.tscn
+res://Scenes/Prefabs/System/Clock/clock.tscn
+res://Scenes/Prefabs/System/Clock/clock.gd
 res://Scenes/Locations/Alpha_Station_15/alpha_station_15.tscn
+res://Scenes/Prefabs/UI/HUD_Main/hud_main.tscn
 res://Scenes/UI/HUD/hud.tscn
+res://Scenes/Prefabs/UI/HUD_Main/hud_main.gd
 res://Scripts/Globals.gd
-res://Scenes/UI/HUD/hud.gd
-res://Scenes/Player/player.gd
 res://Scripts/UI/progress_bar.gd
-res://Scenes/Prefabs/Games/Ping_N_Pong/ping_n_pong.tscn
+res://Scenes/Player/player.gd

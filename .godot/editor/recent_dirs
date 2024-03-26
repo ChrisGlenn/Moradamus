@@ -1,3 +1,5 @@
+res://Scenes/Prefabs/System/Clock
+res://Scripts
 res://Scenes/Prefabs/Games/Ping_N_Pong
 res://Sprites/UI
 res://Scenes/Prefabs/UI/HUD_Main
@@ -9,5 +11,4 @@ res://Sprites/Player
 res://Scenes/Player
 res://Scenes/System/Load_Game
 res://Scenes/System/Main_Menu
-res://Scripts
 res://Fonts

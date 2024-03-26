@@ -15,20 +15,27 @@ var day_check : int = 0 # checks days
 
 
 func _ready():
+	SELECTOR.visible = false
+	# update player related globals
 	Globals.player_x = global_position.x # update player X
 	Globals.player_y = global_position.y # update player Y
-	SELECTOR.visible = false
+	day_check = Globals.day # set day check
+	minute_check = Globals.minutes # set minutes check
 
 
 func _process(_delta):
 	pass
 
 func _physics_process(delta):
-	player_movement(delta) # movement function
-	selector() # selector function
+	if Globals.can_play:
+		if !Globals.in_combat:
+			# if the player 'can_play' and not in combat then allow the movement/selector functions
+			player_movement_normal(delta) # movement function
+			selector() # selector function
+			time_update() # update the player's hunger/thirst
 
 
-func player_movement(clock):
+func player_movement_normal(clock):
 	Globals.player_x = global_position.x # update player X
 	Globals.player_y = global_position.y # update player Y
 	# player movement
@@ -132,7 +139,18 @@ func player_movement(clock):
 func time_update():
 	# this keeps track of time for player specific time instances like hunger/thirst/ect 
 	# as long as the player is not in combat
-	pass
+	if day_check != Globals.day:
+		if Globals.player["days_left"] > 0: Globals.player["days_left"] -= 1 # decrement a day of the player's life
+	if minute_check != Globals.minutes:
+		if !Globals.in_combat:
+			if Globals.player["hunger"] > 0: 
+				Globals.player["hunger"] -= 2.0 # decrement hunger (0.2 is the default)
+				print(str(Globals.player["hunger"]))
+			else: death() # the player has died of hunger...
+			if Globals.player["thirst"] > 0: 
+				Globals.player["thirst"] -= 1.0 # decrement thirst (1 is the default)
+			else: death() # the player has died of thirst...
+			minute_check = Globals.minutes # reset minute_check
 
 func selector():
 	if selector_active:
@@ -159,7 +177,6 @@ func selector():
 			$Body.flip_h = false
 			$Hair.flip_h = false
 			$Clothing.flip_h = false
-			$Weapon.flip_h = false
 			select_pos = 1
 		elif Input.is_action_just_pressed("mora_down"):
 			select_pos = 2
@@ -168,7 +185,6 @@ func selector():
 			$Body.flip_h = true
 			$Hair.flip_h = true
 			$Clothing.flip_h = true
-			$Weapon.flip_h = true
 			select_pos = 3
 		# elif Input.is_action_just_pressed("tae_select"):
 		# 	pass

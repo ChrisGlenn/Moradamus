@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkwwe7tgdkw81"]
+
+[ext_resource type="Script" path="res://Scenes/Prefabs/System/Clock/clock.gd" id="1_ahvli"]
+
+[node name="Clock" type="Node2D"]
+script = ExtResource("1_ahvli")
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

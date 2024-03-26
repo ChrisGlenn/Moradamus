@@ -29,5 +29,12 @@ This is the 'magic' event.
 In the end a magic user will face off against the dragon with a group of escorts. There they will fight the dragon, one by one be swept by the wayside until the last one standing destroys the dragon, dying in the process. There he will return in three days in a different 'state'. He will stay for a while before disappearing.
 
 
-- System Wide War - 
+- Holy War -
 
+This is the 'regligion' event and can only happen in a theocratic system.
+
+
+- Uprising -
+An alien race that has been either exploited or 
+
+This is the 'underdog' event.

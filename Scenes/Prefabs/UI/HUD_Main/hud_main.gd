@@ -11,8 +11,11 @@ extends Node2D
 
 func _ready():
     # set the HUD elements from Globals
-    CHAR_NAME.text = Globals.player_name
+    CHAR_NAME.text = Globals.player["name"]
     LOC_NAME.text = Globals.location
-    DATE_NAME.text = str(Globals.day, " ", Globals.months_trade[Globals.month], " ", Globals.year)
-    CREDIT_NAME.text = str("Credits: ", Globals.player_credits)
-    STATUS_NAME.text = str("Status: ", Globals.player_status)
+    DATE_NAME.text = str(Globals.hour, ":") + str(Globals.minutes).pad_zeros(2) + str(" ", Globals.day, " ", Globals.months_trade[Globals.month], " ", Globals.year)
+    CREDIT_NAME.text = str("Credits: ", Globals.player["credits"])
+    STATUS_NAME.text = str("Status: ", Globals.player["status"])
+
+func _process(_delta):
+    DATE_NAME.text = str(Globals.hour, ":") + str(Globals.minutes).pad_zeros(2) + str(" ", Globals.day, " ", Globals.months_trade[Globals.month], " ", Globals.year)

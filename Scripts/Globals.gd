@@ -44,4 +44,9 @@ var crops : Array = [] # holds crops that have been planted and their current st
 # game start
 var new_random : bool = true # if true the player has selected 'new random' at the main menu
 # hud
-var hud_mode : String = "SPLASH" # defaults to splash to start the game
+var hud_mode : String = "MAIN" # defaults to splash to start the game
+var hud_ctrl_mode : String = "main" # the current mode for the controls listing on the HUD
+var hud_ctrl : Array = [
+	{"mode": "","controls": "ERROR: NO MODE SET"},
+	{"mode": "main","controls": "ESC = Menu\nJ = Journal S = Status\nI = Inventory\nSPACE = Interact"},
+]

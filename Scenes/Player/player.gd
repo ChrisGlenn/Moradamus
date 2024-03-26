@@ -129,7 +129,9 @@ func player_movement(clock):
 	if Input.is_action_just_pressed("mora_end"):
 		get_tree().quit() # quit the game
 
-func time_check():
+func time_update():
+	# this keeps track of time for player specific time instances like hunger/thirst/ect 
+	# as long as the player is not in combat
 	pass
 
 func selector():

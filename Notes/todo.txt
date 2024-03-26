@@ -11,6 +11,9 @@ GAMEPLAY:
     [] Hacking System
     [] Musical Instruments
     [] Keycards
+    [] Video Games
+        [] Ping 'N Pong
+        [] Dragon at Ivalyn Castle
 UI:
     [] HUD
         [] 'Main/Default' HUD

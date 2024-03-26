@@ -1,8 +1,8 @@
-AnimatedSprite2D
-Node2D
-Sprite2D
-Label
 ColorRect
+Sprite2D
+Node2D
+AnimatedSprite2D
+Label
 TileMap
 AudioStreamPlayer
 AudioListener2D
@@ -12,4 +12,3 @@ RayCast2D
 CharacterBody2D
 ParallaxLayer
 ParallaxBackground
-CanvasLayer

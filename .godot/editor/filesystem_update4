@@ -8,3 +8,5 @@ res://Scenes/Player/player.gd
 res://Scenes/Prefabs/UI/HUD_Main/hud_main.gd
 res://Scenes/UI/HUD/hud.gd
 res://Scenes/Prefabs/UI/HUD_Inventory/hud_inventory.tscn
+res://Scripts/DATA/items.gd
+res://Scenes/Prefabs/Tilesets/Moradamus_Tileset/moradamus_tileset.tscn

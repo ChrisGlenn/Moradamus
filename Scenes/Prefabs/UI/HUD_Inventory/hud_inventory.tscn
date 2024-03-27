@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://bkyclhkpjmy3d"]
+[gd_scene load_steps=5 format=3 uid="uid://bkyclhkpjmy3d"]
 
 [ext_resource type="Texture2D" uid="uid://c5p07dhib1xew" path="res://Sprites/UI/mora-terminal.png" id="1_oaka4"]
+[ext_resource type="FontFile" uid="uid://dm366ls8uaseu" path="res://Fonts/m6x11plus.ttf" id="2_wujia"]
 [ext_resource type="Texture2D" uid="uid://cf0owc7j6ccup" path="res://Sprites/UI/mora-inventory-box.png" id="2_xyyui"]
+[ext_resource type="FontFile" uid="uid://cudksfbqw5edh" path="res://Fonts/PocketPixelRegular-6gdY.ttf" id="3_wn3uf"]
 
 [node name="hud_inventory" type="Node2D"]
 
@@ -13,13 +15,170 @@ offset_bottom = 344.0
 color = Color(0.0784314, 0.0784314, 0.0823529, 1)
 
 [node name="HUD_Reference" type="Sprite2D" parent="."]
-visible = false
 texture = ExtResource("1_oaka4")
 centered = false
 
-[node name="Inventory_Box" type="Sprite2D" parent="."]
-position = Vector2(64, 128)
-scale = Vector2(1.45455, 1.45455)
+[node name="Inventory_Label" type="Label" parent="."]
+offset_left = 24.0
+offset_top = 16.0
+offset_right = 424.0
+offset_bottom = 39.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("2_wujia")
+theme_override_font_sizes/font_size = 18
+text = "INVENTORY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Name_Label" type="Label" parent="."]
+offset_left = 128.0
+offset_top = 39.0
+offset_right = 320.0
+offset_bottom = 48.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("3_wn3uf")
+theme_override_font_sizes/font_size = 8
+text = "Char Name"
+horizontal_alignment = 1
+
+[node name="Invnetory_Slots" type="Node2D" parent="."]
+
+[node name="Inv_Slot_" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(64, 224)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_2" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(96, 224)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_3" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(128, 224)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_4" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(160, 224)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_5" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(192, 224)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_6" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(224, 224)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_7" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(256, 224)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_8" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(288, 224)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_9" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(320, 224)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_10" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(352, 224)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_11" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(64, 264)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_12" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(96, 264)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_13" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(128, 264)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_14" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(160, 264)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_15" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(192, 264)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_16" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(224, 264)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_17" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(256, 264)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_18" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(288, 264)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_19" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(320, 264)
+scale = Vector2(1.09091, 1.09091)
+texture = ExtResource("2_xyyui")
+centered = false
+hframes = 2
+
+[node name="Inv_Slot_20" type="Sprite2D" parent="Invnetory_Slots"]
+position = Vector2(352, 264)
+scale = Vector2(1.09091, 1.09091)
 texture = ExtResource("2_xyyui")
 centered = false
 hframes = 2

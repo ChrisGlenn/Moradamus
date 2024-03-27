@@ -1,0 +1,12 @@
+*** ITEMS ***
+A list of the items in the game. The ever growing list.
+
+
+Consumables:
+    [] Water
+Electronics:
+    [] Blank Disk
+    [] Blank Optical Disk
+Misc:
+    [] Empty Beverage Bottle
+    [] Trash

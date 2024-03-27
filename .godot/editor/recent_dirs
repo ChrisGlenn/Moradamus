@@ -1,3 +1,4 @@
+res://Fonts
 res://Scenes/Prefabs/UI/HUD_Inventory
 res://Scenes/Prefabs/System/Clock
 res://Scripts
@@ -12,4 +13,3 @@ res://Sprites/Player
 res://Scenes/Player
 res://Scenes/System/Load_Game
 res://Scenes/System/Main_Menu
-res://Fonts

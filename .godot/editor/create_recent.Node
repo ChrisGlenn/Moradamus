@@ -1,9 +1,9 @@
+Node2D
+Label
 Sprite2D
 ColorRect
 Timer
-Node2D
 AnimatedSprite2D
-Label
 TileMap
 AudioStreamPlayer
 AudioListener2D

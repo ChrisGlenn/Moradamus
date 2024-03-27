@@ -6,7 +6,6 @@ PLAYER:
     [x] Player Grid Movement/Collision
     [x] Selector
     [] Selector Collision/Update
-    [] Player Step SFX
 GAMEPLAY:
     [] Hacking System
     [] Musical Instruments
@@ -14,14 +13,22 @@ GAMEPLAY:
     [] Video Games
         [] Ping 'N Pong
         [] Dragon at Ivalyn Castle
+    [] Player Attribute Concept
 UI:
     [] HUD
         [] 'Main/Default' HUD
+            [] Mini-Map System
         [] HUD Management System
         [] Inventory
             [] Inventory Working System (add/update/delete items, multiple items per slot, ect)
             [] Inventory Selector
             [] Inventory Screen
+        [] Map
+            [] Large Map
+            [] Labels
+            [] Custom Labels(?)
+        [] Combat
+            [] HP/MP
 INVENTORY:
     [] Pickup
     [] Item List (script)
@@ -31,11 +38,21 @@ ENVIORNMENT:
     [] Door (unlocked/locked)
 GALAXY MAP:
 SHIP:
+    [] Scrolling Star Background/Foreground
+    [] Dynamic Background Elements Based on Location
+COMBAT:
+    [] Turn-Based Movement
+SHIP COMBAT:
 ENEMY SHIPS:
 ENEMIES:
 NPCS:
+    [] Pathfinding (Grid)
+    [] Pathfinding (Movement)
+    [] Schedule
+    [] Needs Management
 SFX:
-    [] Beep
+    [] Beep (Start-Up)
+    [] Player Step SFX
 AUDIO:
     [] Main Menu Startup Sound
 SYSTEM:
@@ -46,6 +63,7 @@ SYSTEM:
 
 
 ALPHA BUG-FIX LIST:
+    [x] Player won't turn opposite way after using selector and changing directions (changed flip to movement not initial button press)
 
 
 TO-DO LIST(BETA):

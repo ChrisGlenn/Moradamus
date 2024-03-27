@@ -1,6 +1,6 @@
-Timer
-ColorRect
 Sprite2D
+ColorRect
+Timer
 Node2D
 AnimatedSprite2D
 Label
@@ -12,4 +12,3 @@ Area2D
 RayCast2D
 CharacterBody2D
 ParallaxLayer
-ParallaxBackground

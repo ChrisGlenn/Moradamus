@@ -1,8 +1,8 @@
 *** GOVERNMENT ***
-The rulers of the solar system/galaxy that the player will be put in will be randomly picked and generated from a list of various types of governments...which are listed now below.
+The rulers of the solar system/galaxy that the player will be put in will be randomly picked and generated from a list of various types of governments...which are listed now below. Each system can have their own form of government that will dictate how they interact with others.
 
 
-DEMOCRACY:
+DEMOCRACY
 This one has an elected President and government that is made up of each race in the galaxy. The election is held every eight years, ten if the President is given an 'extention'. 
 
 Pros: 
@@ -12,5 +12,38 @@ Cons:
 It's a democracy. It's corrupt as all get out.
 
 
-THEOCRACY:
+THEOCRACY
+A large theocratic union holds the system together. Theocracies will require a certian level of allegiance from their citizens and/or trade partners in order to continue to thrive in a theocracy. 
 
+Pros:
+Unity, a bond that ties everyone together.
+
+Cons:
+It's a theocracy...
+People get leary of theocratic governments who will let blashpemies slide if it means a great trade deal.
+
+
+*** ECONOMY ***
+After a government type is selected for a system, a type of economy will be selected for each system.
+
+COLLECTIVISM:
+Communist based government. You are required to give in a large portion of what you make, while only getting lesser quality returns. There is a strict code for those who live under collectivism and any sort of outspoken criticism of the system will usually net you a fine or jail time.
+
+Pros:
+The player will get a stipend
+
+Cons:
+It's communism...
+The player has to put in a large portion of their making.
+The player has to watch what they say/do.
+
+
+CAPITALISM
+The free market will decide how things go! The player is free to make money how they see fit, as long as there is a buyer.
+
+Pros:
+The player will be able to make a lot more credits.
+Not collectivism...
+
+Cons:
+No help, no stipend, lots of bills.

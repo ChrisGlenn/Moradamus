@@ -1,6 +1,7 @@
 extends CanvasLayer
 # HUD
 # the main HUD for the game that is static throughout the entire game
+@onready var HUD_MAIN = $HUD_Main
 @onready var CONTROLS = $Controls_Label
 var hud_ctrl_check : String = "" # used to keep track of hud control update
 
@@ -11,6 +12,12 @@ func _ready():
 func _process(_delta):
 	pass
 
+
+func hud_controls():
+	# the hud controls
+	if Globals.hud_mode == "MAIN":
+		if Input.is_action_just_pressed("mora_inventory"):
+			pass
 
 func update_controls(scan):
 	# update the hud controls

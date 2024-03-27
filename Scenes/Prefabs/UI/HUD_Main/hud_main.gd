@@ -18,4 +18,5 @@ func _ready():
     STATUS_NAME.text = str("Status: ", Globals.player["status"])
 
 func _process(_delta):
+    # keep updates
     DATE_NAME.text = str(Globals.hour, ":") + str(Globals.minutes).pad_zeros(2) + str(" ", Globals.day, " ", Globals.months_trade[Globals.month], " ", Globals.year)

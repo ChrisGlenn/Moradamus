@@ -55,10 +55,6 @@ func player_movement_normal(clock):
 		if Input.is_action_pressed("mora_right"):
 			# move right
 			if RAY.target_position.x != 16:
-				# face right
-				$Body.flip_h = false
-				$Hair.flip_h = false
-				$Clothing.flip_h = false
 				RAY.target_position = Vector2(16,0)
 				select_pos = 1 # set select pos
 			else: 
@@ -66,6 +62,11 @@ func player_movement_normal(clock):
 					move_dir = 1 # right
 					move_to = global_position.x + 16
 					moving = true
+				else:
+					# face that direction anyway
+					$Body.flip_h = false
+					$Hair.flip_h = false
+					$Clothing.flip_h = false
 		if Input.is_action_pressed("mora_down"):
 			# move down
 			# cast the ray and check for collision
@@ -80,10 +81,6 @@ func player_movement_normal(clock):
 		if Input.is_action_pressed("mora_left"):
 			# cast the ray and check for collision
 			if RAY.target_position.x != -16:
-				# face left
-				$Body.flip_h = true
-				$Hair.flip_h = true
-				$Clothing.flip_h = true
 				RAY.target_position = Vector2(-16,0)
 				select_pos = 3 # set select pos
 			else:
@@ -91,6 +88,11 @@ func player_movement_normal(clock):
 					move_dir = 3 # left
 					move_to = global_position.x - 16
 					moving = true
+				else:
+					# face the direction anyway
+					$Body.flip_h = true
+					$Hair.flip_h = true
+					$Clothing.flip_h = true
 		# selector input check
 		if Input.is_action_just_pressed("mora_selector"):
 			selector_active = true # set the selector to true (on)
@@ -109,6 +111,9 @@ func player_movement_normal(clock):
 			# right
 			if global_position.x < move_to:
 				# move the player
+				$Body.flip_h = false
+				$Hair.flip_h = false
+				$Clothing.flip_h = false
 				position.x += Globals.movement_speed * clock
 			else:
 				# PLAY STEP SOUND
@@ -127,6 +132,9 @@ func player_movement_normal(clock):
 			# left
 			if global_position.x > move_to:
 				# move the player
+				$Body.flip_h = true
+				$Hair.flip_h = true
+				$Clothing.flip_h = true
 				position.x -= Globals.movement_speed * clock
 			else:
 				# PLAY STEP SOUND
@@ -144,8 +152,7 @@ func time_update():
 	if minute_check != Globals.minutes:
 		if !Globals.in_combat:
 			if Globals.player["hunger"] > 0: 
-				Globals.player["hunger"] -= 2.0 # decrement hunger (0.2 is the default)
-				print(str(Globals.player["hunger"]))
+				Globals.player["hunger"] -= 0.2 # decrement hunger (0.2 is the default)
 			else: death() # the player has died of hunger...
 			if Globals.player["thirst"] > 0: 
 				Globals.player["thirst"] -= 1.0 # decrement thirst (1 is the default)
@@ -206,4 +213,6 @@ func update_selector():
 	pass
 
 func death():
-	pass
+	# THE PLAYER HAS DIED
+	print("THOU ART DEAD!")
+	get_tree().quit()

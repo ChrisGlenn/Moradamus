@@ -131,70 +131,70 @@ position = Vector2(512, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_max = 10
+bar_max = 10.0
 
 [node name="Hunger_2" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(520, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_max = 20
+bar_max = 20.0
 
 [node name="Hunger_3" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(528, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_max = 30
+bar_max = 30.0
 
 [node name="Hunger_4" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(536, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_max = 40
+bar_max = 40.0
 
 [node name="Hunger_5" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(544, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_max = 50
+bar_max = 50.0
 
 [node name="Hunger_6" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(552, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_max = 60
+bar_max = 60.0
 
 [node name="Hunger_7" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(560, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_max = 70
+bar_max = 70.0
 
 [node name="Hunger_8" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(568, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_max = 80
+bar_max = 80.0
 
 [node name="Hunger_9" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(576, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_max = 90
+bar_max = 90.0
 
 [node name="Hunger_10" type="AnimatedSprite2D" parent="Hunger_Label/Hunger_Bar"]
 position = Vector2(584, 201)
 sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
-bar_max = 100
+bar_max = 100.0
 
 [node name="Thirst_Label" type="Label" parent="."]
 offset_left = 468.0
@@ -217,7 +217,79 @@ sprite_frames = SubResource("SpriteFrames_pubhb")
 centered = false
 script = ExtResource("6_472vj")
 bar_type = "thirst"
-bar_max = 10
+bar_max = 10.0
+
+[node name="Thirst_2" type="AnimatedSprite2D" parent="Thirst_Label/Node2D"]
+position = Vector2(52, 1)
+sprite_frames = SubResource("SpriteFrames_pubhb")
+centered = false
+script = ExtResource("6_472vj")
+bar_type = "thirst"
+bar_max = 20.0
+
+[node name="Thirst_3" type="AnimatedSprite2D" parent="Thirst_Label/Node2D"]
+position = Vector2(60, 1)
+sprite_frames = SubResource("SpriteFrames_pubhb")
+centered = false
+script = ExtResource("6_472vj")
+bar_type = "thirst"
+bar_max = 30.0
+
+[node name="Thirst_4" type="AnimatedSprite2D" parent="Thirst_Label/Node2D"]
+position = Vector2(68, 1)
+sprite_frames = SubResource("SpriteFrames_pubhb")
+centered = false
+script = ExtResource("6_472vj")
+bar_type = "thirst"
+bar_max = 40.0
+
+[node name="Thirst_5" type="AnimatedSprite2D" parent="Thirst_Label/Node2D"]
+position = Vector2(76, 1)
+sprite_frames = SubResource("SpriteFrames_pubhb")
+centered = false
+script = ExtResource("6_472vj")
+bar_type = "thirst"
+bar_max = 50.0
+
+[node name="Thirst_6" type="AnimatedSprite2D" parent="Thirst_Label/Node2D"]
+position = Vector2(84, 1)
+sprite_frames = SubResource("SpriteFrames_pubhb")
+centered = false
+script = ExtResource("6_472vj")
+bar_type = "thirst"
+bar_max = 60.0
+
+[node name="Thirst_7" type="AnimatedSprite2D" parent="Thirst_Label/Node2D"]
+position = Vector2(92, 1)
+sprite_frames = SubResource("SpriteFrames_pubhb")
+centered = false
+script = ExtResource("6_472vj")
+bar_type = "thirst"
+bar_max = 70.0
+
+[node name="Thirst_8" type="AnimatedSprite2D" parent="Thirst_Label/Node2D"]
+position = Vector2(100, 1)
+sprite_frames = SubResource("SpriteFrames_pubhb")
+centered = false
+script = ExtResource("6_472vj")
+bar_type = "thirst"
+bar_max = 80.0
+
+[node name="Thirst_9" type="AnimatedSprite2D" parent="Thirst_Label/Node2D"]
+position = Vector2(108, 1)
+sprite_frames = SubResource("SpriteFrames_pubhb")
+centered = false
+script = ExtResource("6_472vj")
+bar_type = "thirst"
+bar_max = 90.0
+
+[node name="Thirst_10" type="AnimatedSprite2D" parent="Thirst_Label/Node2D"]
+position = Vector2(116, 1)
+sprite_frames = SubResource("SpriteFrames_pubhb")
+centered = false
+script = ExtResource("6_472vj")
+bar_type = "thirst"
+bar_max = 100.0
 
 [node name="Party_Label" type="Label" parent="."]
 offset_left = 464.0

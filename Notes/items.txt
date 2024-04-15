@@ -4,6 +4,8 @@ A list of the items in the game. The ever growing list.
 
 Consumables:
     [] Water
+    [] Protien Drink (brand name)
+    [] Liquid Soy
 Electronics:
     [] Blank Disk
     [] Blank Optical Disk

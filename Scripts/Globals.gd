@@ -7,7 +7,7 @@ var can_play : bool = true # if the player can move/play
 var in_combat : bool = false # true if combat is enabled
 var selector_on : bool = false # true if the player has the selector on
 var player = {
-	"name": "Adan",
+	"name": "Cardison",
 	"avatar": 1,
 	"head": 17,
 	"body": 0,

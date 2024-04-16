@@ -1,7 +1,10 @@
 *** LOCATIONS ***
-Various Locations in the solar system
+Various Locations in the solar system.
 
 
 DEMO/DEBUG:
 Alpha Station 15
 A test space station that will have the player's 'apartment', NPC's, Launchpad, ect.
+
+
+GAME:

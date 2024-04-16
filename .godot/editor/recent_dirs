@@ -1,5 +1,6 @@
-res://Sprites/UI
 res://Fonts
+res://Scenes/UI/Gemini_Terminal
+res://Sprites/UI
 res://Scenes/Prefabs/UI/HUD_Inventory
 res://Scenes/Prefabs/System/Clock
 res://Scripts

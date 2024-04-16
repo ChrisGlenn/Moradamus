@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scenes/Prefabs/UI/HUD_Inventory/hud_inventory.gd" id="1_dekrj"]
 [ext_resource type="Texture2D" uid="uid://c5p07dhib1xew" path="res://Sprites/UI/mora-terminal.png" id="1_oaka4"]
 [ext_resource type="FontFile" uid="uid://dm366ls8uaseu" path="res://Fonts/m6x11plus.ttf" id="2_wujia"]
-[ext_resource type="Texture2D" uid="uid://cf0owc7j6ccup" path="res://Sprites/UI/mora-inventory-box.png" id="2_xyyui"]
+[ext_resource type="Texture2D" uid="uid://cf0owc7j6ccup" path="res://Sprites/UI/Inventory/mora-inventory-box.png" id="2_xyyui"]
 [ext_resource type="FontFile" uid="uid://cudksfbqw5edh" path="res://Fonts/PocketPixelRegular-6gdY.ttf" id="3_wn3uf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_odv10"]
@@ -63,6 +63,7 @@ animations = [{
 
 [node name="hud_inventory" type="Node2D"]
 script = ExtResource("1_dekrj")
+ITEM_SLOTS = [NodePath("Inventory_Slots/Inv_Slot_"), NodePath("Inventory_Slots/Inv_Slot_2"), NodePath("Inventory_Slots/Inv_Slot_3"), NodePath("Inventory_Slots/Inv_Slot_4"), NodePath("Inventory_Slots/Inv_Slot_5"), NodePath("Inventory_Slots/Inv_Slot_6"), NodePath("Inventory_Slots/Inv_Slot_7"), NodePath("Inventory_Slots/Inv_Slot_8"), NodePath("Inventory_Slots/Inv_Slot_9"), NodePath("Inventory_Slots/Inv_Slot_10"), NodePath("Inventory_Slots/Inv_Slot_11"), NodePath("Inventory_Slots/Inv_Slot_12"), NodePath("Inventory_Slots/Inv_Slot_13"), NodePath("Inventory_Slots/Inv_Slot_14"), NodePath("Inventory_Slots/Inv_Slot_15"), NodePath("Inventory_Slots/Inv_Slot_16"), NodePath("Inventory_Slots/Inv_Slot_17"), NodePath("Inventory_Slots/Inv_Slot_18"), NodePath("Inventory_Slots/Inv_Slot_19"), NodePath("Inventory_Slots/Inv_Slot_20")]
 
 [node name="Background" type="ColorRect" parent="."]
 offset_left = 16.0
@@ -98,124 +99,212 @@ theme_override_font_sizes/font_size = 8
 text = "Char Name"
 horizontal_alignment = 1
 
-[node name="Invnetory_Slots" type="Node2D" parent="."]
+[node name="Inventory_Slots" type="Node2D" parent="."]
 
-[node name="Inv_Slot_" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(64, 224)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_2" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_2" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(96, 224)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_3" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_3" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(128, 224)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_4" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_4" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(160, 224)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_5" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_5" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(192, 224)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_6" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_6" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(224, 224)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_7" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_7" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(256, 224)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_8" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_8" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(288, 224)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_9" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_9" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(320, 224)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_10" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_10" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(352, 224)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_11" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_11" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(64, 264)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_12" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_12" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(96, 264)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_13" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_13" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(128, 264)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_14" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_14" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(160, 264)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_15" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_15" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(192, 264)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_16" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_16" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(224, 264)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_17" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_17" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(256, 264)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_18" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_18" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(288, 264)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_19" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_19" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(320, 264)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
 
-[node name="Inv_Slot_20" type="AnimatedSprite2D" parent="Invnetory_Slots"]
+[node name="Inv_Slot_20" type="AnimatedSprite2D" parent="Inventory_Slots"]
 position = Vector2(352, 264)
 sprite_frames = SubResource("SpriteFrames_33adw")
 animation = &"not-selected"
 centered = false
+
+[node name="Item_Description" type="Label" parent="."]
+offset_left = 64.0
+offset_top = 144.0
+offset_right = 216.0
+offset_bottom = 208.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("3_wn3uf")
+theme_override_font_sizes/font_size = 8
+text = "YOUR INVENTORY IS EMPTY..."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Item_Icon" type="Sprite2D" parent="."]
+position = Vector2(104, 64)
+
+[node name="Equipment" type="Node2D" parent="."]
+
+[node name="Equip_Label" type="Label" parent="Equipment"]
+offset_left = 240.0
+offset_top = 71.0
+offset_right = 384.0
+offset_bottom = 80.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("3_wn3uf")
+theme_override_font_sizes/font_size = 8
+text = "Equipment"
+horizontal_alignment = 1
+
+[node name="Helmet_Label" type="Label" parent="Equipment"]
+offset_left = 256.0
+offset_top = 87.0
+offset_right = 384.0
+offset_bottom = 96.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("3_wn3uf")
+theme_override_font_sizes/font_size = 8
+text = "Head:"
+
+[node name="Body_Label" type="Label" parent="Equipment"]
+offset_left = 256.0
+offset_top = 97.0
+offset_right = 384.0
+offset_bottom = 106.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("3_wn3uf")
+theme_override_font_sizes/font_size = 8
+text = "Body:"
+
+[node name="Mod_A_Label" type="Label" parent="Equipment"]
+offset_left = 256.0
+offset_top = 107.0
+offset_right = 384.0
+offset_bottom = 116.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("3_wn3uf")
+theme_override_font_sizes/font_size = 8
+text = "Mod Chip A:"
+
+[node name="Mod_B_Label" type="Label" parent="Equipment"]
+offset_left = 256.0
+offset_top = 117.0
+offset_right = 384.0
+offset_bottom = 126.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("3_wn3uf")
+theme_override_font_sizes/font_size = 8
+text = "Mod Chip B:"
+
+[node name="Mod_C_Label" type="Label" parent="Equipment"]
+offset_left = 256.0
+offset_top = 127.0
+offset_right = 384.0
+offset_bottom = 136.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("3_wn3uf")
+theme_override_font_sizes/font_size = 8
+text = "Mod Chip C:"
+
+[node name="Weapon_Label" type="Label" parent="Equipment"]
+offset_left = 256.0
+offset_top = 144.0
+offset_right = 384.0
+offset_bottom = 153.0
+theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
+theme_override_fonts/font = ExtResource("3_wn3uf")
+theme_override_font_sizes/font_size = 8
+text = "Weapon:"

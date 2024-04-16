@@ -104,12 +104,13 @@ vertical_alignment = 1
 offset_left = 464.0
 offset_top = 168.0
 offset_right = 608.0
-offset_bottom = 177.0
+offset_bottom = 179.0
 theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
 theme_override_fonts/font = ExtResource("1_pyqyk")
 theme_override_font_sizes/font_size = 8
 text = "Status"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Hunger_Label" type="Label" parent="."]
 offset_left = 468.0
@@ -290,14 +291,3 @@ centered = false
 script = ExtResource("6_472vj")
 bar_type = "thirst"
 bar_max = 100.0
-
-[node name="Party_Label" type="Label" parent="."]
-offset_left = 464.0
-offset_top = 232.0
-offset_right = 608.0
-offset_bottom = 241.0
-theme_override_colors/font_color = Color(0.619608, 0.858824, 0.482353, 1)
-theme_override_fonts/font = ExtResource("1_pyqyk")
-theme_override_font_sizes/font_size = 8
-text = "Current Party"
-horizontal_alignment = 1

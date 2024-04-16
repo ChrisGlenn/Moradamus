@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cf0owc7j6ccup"
-path="res://.godot/imported/mora-inventory-box.png-e64f6fd11ac6635be378ae2624d82900.ctex"
+uid="uid://cphy0pspmpwyr"
+path="res://.godot/imported/gts-os.png-aff1a943c3603e3f86392e11526e8bec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UI/mora-inventory-box.png"
-dest_files=["res://.godot/imported/mora-inventory-box.png-e64f6fd11ac6635be378ae2624d82900.ctex"]
+source_file="res://Sprites/UI/GTS/gts-os.png"
+dest_files=["res://.godot/imported/gts-os.png-aff1a943c3603e3f86392e11526e8bec.ctex"]
 
 [params]
 

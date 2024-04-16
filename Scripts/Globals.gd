@@ -6,7 +6,7 @@ extends Node
 var can_play : bool = true # if the player can move/play
 var in_combat : bool = false # true if combat is enabled
 var selector_on : bool = false # true if the player has the selector on
-var player = {
+var player : Dictionary = {
 	"name": "Cardison",
 	"avatar": 1,
 	"head": 17,
@@ -38,7 +38,7 @@ var player = {
 var player_reputations : Array = [] # array of reputations from -99 to 99 for each
 var player_x : float = 0.0 # player_x location
 var player_y : float = 0.0 # player_y location
-var location = "Alpha Station: 15"
+var location : String = "Alpha Station: 15"
 
 # SYSTEM GLOBALS
 var timer_ctrl : int = 100 # timer control
@@ -71,5 +71,5 @@ var hud_mode : String = "MAIN" # defaults to splash to start the game
 var hud_ctrl_mode : String = "main" # the current mode for the controls listing on the HUD
 var hud_ctrl : Array = [
 	{"mode": "","controls": "ERROR: NO MODE SET"},
-	{"mode": "main","controls": "ESC = Menu\nJ = Journal S = Status\nI = Inventory\nSPACE = Interact"},
+	{"mode": "main","controls": "ESC = Menu\nJ = Journal\nS = Status I = Inventory\nSPACE = Interact"},
 ]

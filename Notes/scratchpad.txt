@@ -6,10 +6,15 @@ Starting off: No job, just starting stats and either a recommendation or a backs
 Entertainment:
 The player can play various side games:
 Video Games
-Sports (pong, ect)
+Instruments
+Sports
 
 Books:
-There are no actual book just a summary that will give the player the overview of the book and will update anything 
+There are no actual book just a summary that will give the player the overview of the book and will update anything.
+
+
+- Corporations
+Gemini Terminal System (GTS) is the main OS of the game. The 'Windows' or 'Apple' of the galaxy. There is an alternative OS called Open Terminal System (OTS) that is the 'linux' of the galaxy. OTS is used by underground networks, outsiders, ect. There are people who are devotees of each system. GTS is produced by Gemini Systems who's enigmatic CEO is a celebrity in the galaxy.
 
 - Space Samurai
 Instead of projectile weapons allow samurai swords as well. ENERGY SWORDS!!!

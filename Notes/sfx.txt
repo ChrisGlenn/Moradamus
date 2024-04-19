@@ -1,0 +1,7 @@
+*** SFX ***
+
+PLAYER:
+    [] Player Step SFX
+
+TERMINAL:
+    [] Beep (Start-Up)

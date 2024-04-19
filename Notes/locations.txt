@@ -2,9 +2,35 @@
 Various Locations in the solar system.
 
 
-DEMO/DEBUG:
+*** DEMO/DEBUG ***
 Alpha Station 15
 A test space station that will have the player's 'apartment', NPC's, Launchpad, ect.
 
 
-GAME:
+*** GAME ***
+Astroid Belt:
+A group of astroids in a belt. These are just empty.
+
+Mining Astroid Belt:
+An astroid belt that is being mined. It's under the control of a company so you're probably trespassing if you end up flying into it.
+
+Debris Belt:
+An astroid belt but it's made of debris from battles. These are full of pretty useless stuff, sometimes something can be fished out, but it's pretty rare.
+
+Battle Debris:
+After a large battle a bunch of debris will be left from the fight. Lot's of interesting stuff can be found there but it can be a dangerous place once scavengers arrive.
+
+Abara Station:
+A high tech station where player's can go to buy tech and ship upgrades.
+
+Penitentary: 
+A large space station that is a prison. The player can end up there as either a bounty hunter turning in a bounty or as a prisoner.
+
+Wrecked Abandoned Space Station:
+This provides a good place to hide/do repairs/ect away from anyone else...other than whomever may be there already.
+
+Infested Space Station:
+A space station infected with an alien prescense. Will alert through an SOS that the player can then go and try to save some people from it or kill the alien prescense or blow it up after saving some staff...
+
+Ice Astroid Field:
+Astroids made of ice.

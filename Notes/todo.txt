@@ -13,6 +13,8 @@ GAMEPLAY:
     [] Video Games
         [] Ping 'N Pong
         [] Dragon at Ivalyn Castle
+        [] Wizards of Lor
+        [] Tank Assault
     [] Player Attribute Concept
 UI:
     [] HUD
@@ -37,6 +39,8 @@ INVENTORY:
 ENVIORNMENT:
     [] Door (unlocked/locked)
 GALAXY MAP:
+    [] Spawn System
+    [] Controls
 SHIP:
     [] Scrolling Star Background/Foreground
     [] Dynamic Background Elements Based on Location
@@ -51,8 +55,7 @@ NPCS:
     [] Schedule
     [] Needs Management
 SFX:
-    [] Beep (Start-Up)
-    [] Player Step SFX
+    [] Game SFX (see sfx.txt)
 AUDIO:
     [] Main Menu Startup Sound
 SYSTEM:

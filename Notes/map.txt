@@ -1,32 +1,4 @@
 *** MAP ***
-Map locations
-
-Essential Spawns:
-Warp Gates:
-These gates warp between federated spaces.
-
-Capital Worlds:
-One for each federation. They are based on the races generated to run space.
-
-Council Station:
-A space station that the 'council' will meet in. Not the center of the galaxy. Which ever country houses the Council is seen as the most powerful/influential. 
+The map system for Moradamus.
 
 
-
-
-
-Non-essential Spawns:
-Wrecked Abandoned Space Station:
-This provides a good place to hide/do repairs/ect away from anyone else...other than whomever may be there already.
-
-Infested Space Station:
-A space station infected with an alien prescense. Will alert through an SOS that the player can then go and try to save some people from it or kill the alien prescense or blow it up after saving some staff...
-
-Ice Astroid Field:
-Astroids made of ice.
-
-Astroid Field:
-An astroid field.
-
-Debris Field:
-Astroid style field but with debris/junk.

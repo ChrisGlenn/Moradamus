@@ -1,0 +1,34 @@
+*** PLAYER ***
+The overview for the player character.
+
+
+SKILLS
+-----------------
+Here is a list of the skills the player can advance in the game.
+
+Pilot:
+If the player can fly a ship. The higher the level the more options there are to fly/drive.
+
+Navigation:
+The higher the navigation level the player can fly faster.
+
+Unarmed:
+The player can fight with fists really well. Multiple attacks per hit.
+
+Farming:
+The higher the level, the higher the crop output.
+
+Small Arms:
+How well the player can use small arms.
+
+Medical:
+The higher the level the better the player can heal themselves/others.
+
+Hacking:
+Effects how easy it is to hack systems.
+
+Engineering:
+Effects repairing the ship.
+
+Electronics:
+Effects the player's ability to make electronics.

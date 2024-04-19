@@ -16,6 +16,9 @@ There are no actual book just a summary that will give the player the overview o
 - Corporations
 Gemini Terminal System (GTS) is the main OS of the game. The 'Windows' or 'Apple' of the galaxy. There is an alternative OS called Open Terminal System (OTS) that is the 'linux' of the galaxy. OTS is used by underground networks, outsiders, ect. There are people who are devotees of each system. GTS is produced by Gemini Systems who's enigmatic CEO is a celebrity in the galaxy.
 
+- Video Game Releases
+Game releases are staggard to allow hype.
+
 - Space Samurai
 Instead of projectile weapons allow samurai swords as well. ENERGY SWORDS!!!
 

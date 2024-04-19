@@ -1,0 +1,4 @@
+*** COMBAT ***
+A description of how combat in the game works.
+
+The player will have a lot of different ways they can engage in 'combat' in Moradamus. All of them though are based off the cooresponding stat. For example, if the player wants to fire a lazer pistol then the 'small arms' stat will be what the damage and, possibly, the hit rate is.

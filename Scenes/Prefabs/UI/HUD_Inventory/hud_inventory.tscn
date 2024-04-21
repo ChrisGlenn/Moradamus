@@ -62,6 +62,7 @@ animations = [{
 }]
 
 [node name="hud_inventory" type="Node2D"]
+process_mode = 3
 script = ExtResource("1_dekrj")
 ITEM_SLOTS = [NodePath("Inventory_Slots/Inv_Slot_"), NodePath("Inventory_Slots/Inv_Slot_2"), NodePath("Inventory_Slots/Inv_Slot_3"), NodePath("Inventory_Slots/Inv_Slot_4"), NodePath("Inventory_Slots/Inv_Slot_5"), NodePath("Inventory_Slots/Inv_Slot_6"), NodePath("Inventory_Slots/Inv_Slot_7"), NodePath("Inventory_Slots/Inv_Slot_8"), NodePath("Inventory_Slots/Inv_Slot_9"), NodePath("Inventory_Slots/Inv_Slot_10"), NodePath("Inventory_Slots/Inv_Slot_11"), NodePath("Inventory_Slots/Inv_Slot_12"), NodePath("Inventory_Slots/Inv_Slot_13"), NodePath("Inventory_Slots/Inv_Slot_14"), NodePath("Inventory_Slots/Inv_Slot_15"), NodePath("Inventory_Slots/Inv_Slot_16"), NodePath("Inventory_Slots/Inv_Slot_17"), NodePath("Inventory_Slots/Inv_Slot_18"), NodePath("Inventory_Slots/Inv_Slot_19"), NodePath("Inventory_Slots/Inv_Slot_20")]
 

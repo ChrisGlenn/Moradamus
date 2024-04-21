@@ -41,6 +41,7 @@ var player_y : float = 0.0 # player_y location
 var location : String = "Alpha Station: 15"
 
 # SYSTEM GLOBALS
+var paused = false # game paused status
 var timer_ctrl : int = 100 # timer control
 var movement_speed : int = 97 # player/npc/ect. movement speed
 

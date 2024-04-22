@@ -34,3 +34,9 @@ A space station infected with an alien prescense. Will alert through an SOS that
 
 Ice Astroid Field:
 Astroids made of ice.
+
+Abandoned Ship:
+There will be different kinds of abandoned ships. Some are small, medium, large or military grade. If the player tries to 'steal' them it depends on the ownership, ect. These are also great spots for criminals/monsters/ect and can be very dangerous. 
+
+Farm Station:
+A space station where crops are grown and animals are hearded. Maybe you can buy a plot of land on it?

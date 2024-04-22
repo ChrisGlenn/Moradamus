@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cakameu3twvx4"]
+
+[ext_resource type="Script" path="res://Scenes/Prefabs/System/Game_Cam/game_cam.gd" id="1_8ba4j"]
+
+[node name="Game_Cam" type="Camera2D"]
+anchor_mode = 0
+script = ExtResource("1_8ba4j")

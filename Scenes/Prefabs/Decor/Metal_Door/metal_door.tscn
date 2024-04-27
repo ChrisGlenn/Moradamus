@@ -1,0 +1,89 @@
+[gd_scene load_steps=13 format=3 uid="uid://ddcmqmhgdqn7f"]
+
+[ext_resource type="Script" path="res://Scenes/Prefabs/Decor/Metal_Door/metal_door.gd" id="1_dw2l2"]
+[ext_resource type="Texture2D" uid="uid://cx3qt71aafbv2" path="res://Sprites/Sheets/Mora-Door-One.png" id="1_s4kln"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7kbwp"]
+atlas = ExtResource("1_s4kln")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_echs0"]
+atlas = ExtResource("1_s4kln")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bypn3"]
+atlas = ExtResource("1_s4kln")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0cf00"]
+atlas = ExtResource("1_s4kln")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cgdjg"]
+atlas = ExtResource("1_s4kln")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_43eef"]
+atlas = ExtResource("1_s4kln")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pp5er"]
+atlas = ExtResource("1_s4kln")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cejwu"]
+atlas = ExtResource("1_s4kln")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gsxex"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7kbwp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_echs0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bypn3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0cf00")
+}],
+"loop": true,
+"name": &"close",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cgdjg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_43eef")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pp5er")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cejwu")
+}],
+"loop": true,
+"name": &"open",
+"speed": 0.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_feoqy"]
+size = Vector2(8, 8)
+
+[node name="Metal_Door" type="Area2D"]
+script = ExtResource("1_dw2l2")
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_gsxex")
+animation = &"open"
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_feoqy")

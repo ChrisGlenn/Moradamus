@@ -1,7 +1,3 @@
-res://Scenes/Prefabs/System/Game_Cam/game_cam.gd
-res://Scenes/Locations/Alpha_Station_15/alpha_station_15.tscn
-res://Scenes/UI/HUD/hud.tscn
-res://Scenes/Prefabs/UI/HUD_Main/hud_main.tscn
-res://Scenes/Prefabs/UI/HUD_Inventory/hud_inventory.tscn
-res://Scenes/Prefabs/System/Game_Cam/game_cam.tscn
-res://Scenes/Prefabs/Tilesets/Moradamus_Tileset/moradamus_tileset.tscn
+res://Scenes/Prefabs/Decor/Metal_Door/metal_door.tscn
+res://Scenes/Prefabs/Decor/Metal_Door/metal_door.gd
+res://Scripts/Globals.gd

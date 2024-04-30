@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://c8ksrrxc2k6hl"]
+[gd_scene load_steps=5 format=3 uid="uid://c8ksrrxc2k6hl"]
 
 [ext_resource type="PackedScene" uid="uid://cakameu3twvx4" path="res://Scenes/Prefabs/System/Game_Cam/game_cam.tscn" id="1_35mva"]
 [ext_resource type="PackedScene" uid="uid://cgs8crv5profb" path="res://Scenes/Prefabs/Tilesets/Moradamus_Tileset/moradamus_tileset.tscn" id="1_yesak"]
 [ext_resource type="PackedScene" uid="uid://cjmk70278083x" path="res://Scenes/Player/player.tscn" id="2_5pdpv"]
+[ext_resource type="PackedScene" uid="uid://ddcmqmhgdqn7f" path="res://Scenes/Prefabs/Decor/Metal_Door/metal_door.tscn" id="4_ajo18"]
 
 [node name="Alpha_Station_15" type="Node2D"]
 
@@ -14,3 +15,8 @@ position = Vector2(0, 1792)
 
 [node name="Player" parent="." instance=ExtResource("2_5pdpv")]
 position = Vector2(112, 2064)
+
+[node name="Decor" type="Node2D" parent="."]
+
+[node name="Metal_Door" parent="Decor" instance=ExtResource("4_ajo18")]
+position = Vector2(304, 2016)

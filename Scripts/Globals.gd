@@ -76,4 +76,6 @@ var hud_ctrl_mode : String = "main" # the current mode for the controls listing 
 var hud_ctrl : Array = [
 	{"mode": "","controls": "ERROR: NO MODE SET"},
 	{"mode": "main","controls": "ESC = Menu\nJ = Journal\nS = Status I = Inventory\nSPACE = Interact"},
+	{"mode": "door_closed","controls": "ESC = Menu\nSPACE = Open\nCTRL = Attack H = Hack"},
+	{"mode": "door_opened","controls": "ESC = Menu\nSPACE = Close"}
 ]

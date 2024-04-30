@@ -1,0 +1,12 @@
+*** EQUIPMENT ***
+Player's/party's equipment for the game.
+
+Structure:
+This is the structure of the dictionary for the equipment using nude as the example.
+Finder: NUDE (how the equipment is found in the array)
+Name: Naked (the name of the equipment listed)
+Frame: 0 (reference frame for the body)
+Type: Unequipped (the type such as: unequiped, light armor, heavy armor, ect.)
+AC: 0 (the armor class to add to the player's existing armor class)
+
+

@@ -20,3 +20,6 @@ position = Vector2(112, 2064)
 
 [node name="Metal_Door" parent="Decor" instance=ExtResource("4_ajo18")]
 position = Vector2(304, 2016)
+
+[node name="Metal_Door2" parent="Decor" instance=ExtResource("4_ajo18")]
+position = Vector2(432, 2016)

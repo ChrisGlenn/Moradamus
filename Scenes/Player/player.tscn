@@ -47,6 +47,7 @@ position = Vector2(8, 8)
 shape = SubResource("RectangleShape2D_xop5l")
 
 [node name="Selector" type="Area2D" parent="."]
+z_index = 9
 
 [node name="Sprite2D" type="Sprite2D" parent="Selector"]
 texture = ExtResource("3_xhu4r")
